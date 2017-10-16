@@ -1,0 +1,36 @@
+#box-wrapper {
+    width: 100%; height: 100%; top: 0; left: 0;
+    background: url(../image/background.jpg) no-repeat center top; position: fixed; z-index: -1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+
+.stylish-input-group .input-group-addon{
+    background: white !important;
+}
+.stylish-input-group .form-control{
+    border-right:0;
+    box-shadow:0 0 0;
+    border-color:#ccc;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
+.center-me {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

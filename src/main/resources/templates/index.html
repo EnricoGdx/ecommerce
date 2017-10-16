@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th = "http://www.w3.org/1000/xhtml">
+<head th:replace="common/header :: common-header" />
+
+<body>
+<div id="box-wrapper"> <!--setto background per l'immagine -->
+
+    <div th:replace="common/header :: navbar"/>
+
+    <!--barra di ricerca -->
+    <div class="container center-me">
+
+        <div class="row">
+            <div class="col-sm-6 col-sm-offset-3">
+                <div>
+                    <img src="/image/logo.png" class="img-responsive"/>
+                    <div class="input-group stylish-input-group">
+                        <input type="text" class="form-control" placeholder="Search"/>
+                        <span class="input-group-addon">
+                        <button type="submit">
+                            <span class="glyphicon glyphicon-search"></span>
+                        </button>
+                    </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><!-- fine backroung immagine-->
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<div th:replace ="common/header :: body-bottom-scripts"/>
+</body>
+</html>
+
